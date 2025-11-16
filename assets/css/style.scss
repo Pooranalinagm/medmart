@@ -89,6 +89,9 @@ ul {
   padding-left: 0px;
 }
 
+.main-content {
+  overflow: hidden;
+}
 
 
 
@@ -294,27 +297,10 @@ p {
   @media screen and (max-width: 991px) {
     font-size: 15px;
   }
-
-  @media screen and (max-width: 767px) {
-    // font-size: 14px;
-  }
 }
 
 .pads {
   padding: 50px 0;
-
-  // @media screen and (max-width: 1200px) {
-  //   padding: 70px 0;
-  // }
-
-  // @media screen and (max-width: 991px) {
-  //   padding: 60px 0;
-  // }
-
-  // @media screen and (max-width: 767px) {
-  //   padding: 50px 0;
-  // }
-
   @media screen and (max-width: 767px) {
     padding: 40px 0;
   }
@@ -327,7 +313,6 @@ p {
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
-
 
 
 
@@ -492,14 +477,14 @@ p {
 
 
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    font-size: 20px !important;
-    transition: 0s;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 5px;
+              width: 30px;
+              height: 30px;
+              font-size: 20px !important;
+              transition: 0s;
             }
           }
 
@@ -1671,12 +1656,14 @@ footer .foot_menu {
           display: block;
           margin-bottom: 15px;
         }
-        .flist{
+
+        .flist {
           @media screen and (min-width:767px) {
-            display: block  !important;
-            
+            display: block !important;
+
           }
         }
+
         ul li {
 
           a {
@@ -1760,59 +1747,6 @@ footer .foot_menu {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // *********************************responsive code here*************************************

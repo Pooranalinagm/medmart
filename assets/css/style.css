@@ -141,6 +141,10 @@ ul {
   padding-left: 0px;
 }
 
+.main-content {
+  overflow: hidden;
+}
+
 .less {
   font-family: Figtree-Regular;
   font-weight: 500;
